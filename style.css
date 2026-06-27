@@ -1405,3 +1405,77 @@ cursor:pointer;
 color:white;
 
 }
+.rate-gallery{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:30px;
+
+margin-top:40px;
+
+}
+
+.rate-gallery .project-card{
+
+width:100%;
+
+}
+/* ===========================
+RATE LIMITER PAGE
+=========================== */
+
+.rate-gallery{
+
+display:grid;
+
+grid-template-columns:repeat(3,minmax(360px,1fr));
+
+gap:35px;
+
+margin-top:40px;
+
+}
+
+.rate-gallery .project-card{
+
+width:100%;
+
+}
+
+.rate-gallery .project-card h3{
+
+font-size:1.4rem;
+
+padding:15px;
+
+line-height:1.5;
+
+min-height:70px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+}
+
+.rate-gallery .project-card img{
+
+width:100%;
+
+height:260px;
+
+object-fit:contain;
+
+background:#101827;
+
+padding:10px;
+
+border-radius:15px;
+
+}
