@@ -1,8 +1,8 @@
 const words = [
-    "Software Developer",
+    "Aspiring Software Engineer",
     "AI Enthusiast",
     "Data Analytics Practitioner",
-    "Java Developer"
+    "Java Learner"
 ];
 
 let wordIndex = 0;
