@@ -1,8 +1,8 @@
 const words = [
     "Aspiring Software Engineer",
-    "AI Enthusiast",
-    "Data Analytics Practitioner",
-    "Java Learner"
+    "Java Developer (Still Learning)",
+    "Full Stack Web Developer Practitioner",
+    "AI Enthusiast"
 ];
 
 let wordIndex = 0;
@@ -164,6 +164,22 @@ if (lightbox && lightboxImg && closeLightbox) {
             lightbox.style.display = "none";
 
         }
+
+    });
+
+}
+/*==========================
+MOBILE MENU
+==========================*/
+
+const menuToggle = document.getElementById("menu-toggle");
+const navLinks = document.getElementById("nav-links");
+
+if (menuToggle && navLinks) {
+
+    menuToggle.addEventListener("click", () => {
+
+        navLinks.classList.toggle("active");
 
     });
 
