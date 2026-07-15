@@ -1479,3 +1479,71 @@ padding:10px;
 border-radius:15px;
 
 }
+.rate-gallery .project-card img{
+
+width:100%;
+
+height:260px;
+
+object-fit:contain;
+
+background:#101827;
+
+padding:10px;
+
+border-radius:15px;
+
+}
+
+/* Paste below this */
+
+@media (max-width:480px){
+
+.left h1{
+font-size:34px;
+line-height:1.2;
+}
+
+.left h2{
+font-size:20px;
+}
+
+.left p{
+font-size:15px;
+line-height:1.7;
+}
+
+.right img{
+width:180px;
+}
+
+.about,
+.skills,
+.projects,
+.contact{
+padding:70px 20px;
+}
+
+.project-grid{
+grid-template-columns:1fr;
+}
+
+.project-card img{
+height:180px;
+}
+
+.buttons a{
+width:100%;
+text-align:center;
+}
+
+.stat-card{
+padding:25px;
+}
+
+.skill{
+padding:15px;
+font-size:15px;
+}
+
+}
