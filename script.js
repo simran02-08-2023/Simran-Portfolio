@@ -1,8 +1,8 @@
 const words = [
-    "Aspiring Software Engineer",
-    "Java Developer (Still Learning)",
-    "Full Stack Web Developer Practitioner",
-    "AI Enthusiast"
+    "Java & Spring Boot Developer",
+    "Building toward DevOps & Cloud",
+    "Distributed Systems, in practice",
+    "Full-stack when the project needs it"
 ];
 
 let wordIndex = 0;
